@@ -8,6 +8,7 @@ docker run -it pluto
 ## Dev Pluto
 
 ```sh
+cd pluto-deployment-environment
 $ julia
 julia> ]
 (@v.1.6) pkg> activate .
