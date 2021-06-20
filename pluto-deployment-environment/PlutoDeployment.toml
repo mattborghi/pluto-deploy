@@ -1,7 +1,7 @@
 [Export]
 baked_state = false
 offer_binder = true
-slider_server_url="https://mattborghi.github.io/pluto-deploy"
+slider_server_url="https://pluto-deploy.herokuapp.com/"
 ignore_cache = []
 create_index = false
 
