@@ -46,3 +46,11 @@ Check the logs
 ```sh
 $ heroku logs --tail -a pluto-deploy
 ```
+
+## References
+
+- https://github.com/mitmath/18S191
+
+- [Pluto Slide Server](https://github.com/JuliaPluto/PlutoSliderServer.jl)
+
+- https://cburns44.medium.com/how-to-publish-pluto-jl-notebooks-online-with-interactivity-4837a77e8886
