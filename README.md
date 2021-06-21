@@ -16,3 +16,33 @@ julia> ]
 julia> import Pluto
 julia> Pluto.run()
 ```
+
+## Heroku deployment
+
+Now you can sign into Container Registry.
+
+```sh
+$ heroku container:login
+```
+
+Push your Docker-based app
+
+Build the Dockerfile in the current directory and push the Docker image.
+
+```sh
+$ heroku container:push web -a pluto-deploy
+```
+
+Deploy the changes
+
+Release the newly pushed images to deploy your app.
+
+```sh
+$ heroku container:release web -a pluto-deploy
+```
+
+Check the logs
+
+```sh
+$ heroku logs --tail -a pluto-deploy
+```
