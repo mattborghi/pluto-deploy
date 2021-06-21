@@ -53,4 +53,4 @@ $ heroku logs --tail -a pluto-deploy
 
 - [Pluto Slide Server](https://github.com/JuliaPluto/PlutoSliderServer.jl)
 
-- https://cburns44.medium.com/how-to-publish-pluto-jl-notebooks-online-with-interactivity-4837a77e8886
+- https://cburns44.medium.com/how-to-publish-pluto-jl-notebooks-online-with-interactivity-4837a77e8886# dash-deploy
